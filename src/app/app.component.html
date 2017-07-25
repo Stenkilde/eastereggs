@@ -1,13 +1,15 @@
-<h1 class="title">MCU Easteregg Tracker</h1>
+<div class="app">
+    <h1 class="title">MCU Easteregg Tracker</h1>
 
-<ul class="movieList">
-    <li class="movieItem" *ngFor="let movie of movies">
-        <span (click)="activeState = !activeState">{{movie.title}}</span>
-        <ul *ngIf="activeState" >
-          <li *ngFor="let egg of movie.eastereggs">
-              <p>{{egg.name}}</p>
-              <p>{{egg.timestamp}}</p>
-          </li>
-        </ul>
-    </li>
-</ul>
+    <ul class="movieList">
+        <li class="movieItem" *ngFor="let movie of movies">
+            <span (click)="activeState = !activeState">{{movie.title}}</span>
+            <ul *ngIf="activeState" >
+            <li *ngFor="let egg of movie.eastereggs">
+                <p>{{egg.name}}</p>
+                <p>{{egg.timestamp}}</p>
+            </li>
+            </ul>
+        </li>
+    </ul>
+</div>

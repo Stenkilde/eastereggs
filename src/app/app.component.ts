@@ -17,12 +17,32 @@ export class AppComponent {
             phase: "1",
             eastereggs: [
               {
-                name: "Rhodey sees 'War Machine'",
+                name: "Captain Americas Shield, while Tony takes off his suit",
                 timestamp: "00:21:31"
               },
               {
-                name: "Some eastereggs",
+                name: "Stan Lee as Hugh Hefner",
                 timestamp: "00:21:31"
+              },
+              {
+                name: "The 10 rings are mentioned several times, and showed in the credits",
+                timestamp: "00:21:31"
+              },
+              {
+                name: "War Machine is shown in the credits",
+                timestamp: "00:21:31"
+              },
+              {
+                name: "Fighter jets chasing Tony are called 'Whiplash'",
+                timestamp: "00:21:31"
+              },
+              {
+                name: "Tonys ring tone throughout the movie is the original Iron Man Cartoon theme",
+                timestamp: "00:21:31"
+              },
+              {
+                  name: "Post credits scene",
+                  timestamp: "00:21:31"
               }
             ]
         },
@@ -32,7 +52,18 @@ export class AppComponent {
             year: 2008,
             phase: "1",
             eastereggs: [
-
+                {
+                  name: "Stan Lee, drinks a soda with Banners blood.",
+                  timestamp: "00:21:31"
+                },
+                {
+                  name: "There are several Stark Industries logos",
+                  timestamp: "00:21:31"
+                },
+                {
+                  name: "The Original Hulk actor from the TV series, Lou Ferrigno is a security guard in the movie",
+                  timestamp: "00:21:31"
+                }
             ]
         },
         {
@@ -41,7 +72,18 @@ export class AppComponent {
             year: 2010,
             phase: "1",
             eastereggs: [
-
+                {
+                  name: "Captains Americas Shield",
+                  timestamp: "00:21:31"
+                },
+                {
+                  name: "'Blueprints' for a contraption using the Tessarect",
+                  timestamp: "00:21:31"
+                },
+                {
+                  name: "A world map, which was confirmed by Jon Favreau to contain something to the Cinematic Universe, can you guess what it is?",
+                  timestamp: "00:21:31"
+                }
             ]
         },
         {
